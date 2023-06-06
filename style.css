@@ -1,0 +1,38 @@
+body {
+  min-height: 100vh;
+}
+
+.menu-toggle {
+  display: none;
+}
+
+@media (max-width: 40rem) {
+  .menu-toggle {
+    display: inline-block;
+    position: absolute;
+    top: 1rem;
+    right: 2rem;
+    z-index: 99999;
+
+    /* hamburger styles */
+  }
+
+  /* set button span to pos relative */
+
+  /* create before & after pseudo elements */
+
+  /* style menu lines */
+
+  /* position top menu line */
+
+  /* position bottom menu line */
+
+  /* active */
+  /* hide button span */
+
+  /* default position for before & after pseudo elements (overlapping in the center of the button) */
+
+  /* rotate top menu line */
+
+  /* rotate bottom menu line */
+}
